@@ -1,0 +1,35 @@
+.HeaderContainer {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.HeaderContainer p {
+  color: gray;
+  font-size: 1.5rem;
+  flex: 1;
+}
+
+.HeaderContainer button {
+  border: none;
+  font-weight: bold;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  font-size: 1rem;
+  width: 80px;
+}
+
+.Logo {
+  width: 80px;
+}
+
+@media only screen and (min-width: 800px) {
+  .HeaderContainer button,
+  .HeaderContainer p {
+    display: none;
+  }
+}

@@ -1,0 +1,50 @@
+.ProfilesWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 65vh;
+}
+
+.Profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.WatchText,
+.ManageProfilesBtn {
+  display: none;
+}
+
+@media only screen and (min-width: 800px) {
+  .ProfilesWrapper {
+    width: 100%;
+  }
+
+  .Profiles {
+    flex-wrap: nowrap;
+    margin-bottom: 1rem;
+  }
+
+  .WatchText,
+  .ManageProfilesBtn {
+    display: block;
+  }
+
+  .WatchText {
+    color: #fff;
+    margin-bottom: 2rem;
+    font-size: 2.6rem;
+    font-weight: 400;
+  }
+
+  .ManageProfilesBtn:hover {
+    border-color: #fff;
+    color: #fff;
+  }
+}

@@ -1,0 +1,37 @@
+.AppFooter {
+  color: grey;
+}
+
+.SocialLinks {
+  margin-bottom: 10px;
+}
+
+.LinksGrid {
+  margin-bottom: 30px;
+}
+
+.LinksGrid ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  column-gap: 20px;
+  grid-gap: 1.3rem;
+}
+
+.LinksGrid li {
+  font-size: 0.8rem;
+}
+
+.Service {
+  margin-bottom: 12px;
+}
+
+.Copyright p {
+  font-size: 0.7rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .HideXS {
+    display: none;
+  }
+}

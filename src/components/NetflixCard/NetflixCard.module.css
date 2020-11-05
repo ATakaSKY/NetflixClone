@@ -1,0 +1,22 @@
+.Card:not(:last-child) {
+  margin-right: 10px;
+}
+
+.hide {
+  overflow: hidden;
+}
+
+.Card img {
+  transition: all 3s;
+  width: 250px;
+}
+
+.Card:hover img {
+  transform: scale(1.5);
+}
+
+@media only screen and (max-width: 700px) {
+  .Card img {
+    width: 200px;
+  }
+}

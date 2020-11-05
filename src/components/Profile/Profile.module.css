@@ -1,0 +1,81 @@
+.ProfileWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.ProfileWrapper:nth-child(2n) {
+  margin-right: 0;
+}
+
+.ProfileWrapper:hover .Image {
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  transition: all 0.4s;
+}
+
+.ProfileWrapper:hover .ProfileName {
+  color: #fff;
+}
+
+.Image {
+  width: 7rem;
+  height: 7rem;
+  object-fit: contain;
+}
+
+.ProfileName {
+  margin-top: 5px;
+  color: grey;
+  text-align: center;
+}
+
+.Dull {
+  opacity: 0.3;
+  transition: all 0.4s;
+}
+
+.Bright {
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.EditIcon {
+  z-index: 5;
+  color: #fff;
+  width: 7rem;
+  height: 7rem;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 800px) {
+  .Image {
+    width: 8rem;
+    height: 8rem;
+    object-fit: contain;
+  }
+
+  .EditIcon {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .ProfileWrapper {
+    margin-right: 30px !important;
+    margin-bottom: 0;
+  }
+
+  .ProfileWrapper:hover .Image {
+    border: 4px solid #fff;
+  }
+
+  .ProfileName {
+    font-size: 1rem;
+    margin-top: 8px;
+  }
+}

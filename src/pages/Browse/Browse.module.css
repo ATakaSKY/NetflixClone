@@ -1,0 +1,18 @@
+.BrowseContainer {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.VideoPreview {
+  height: 100vh;
+}
+
+.NetflixCards {
+  margin-bottom: 120px;
+}
+
+.Footer {
+  max-width: 82%;
+  margin: 0 auto;
+}
